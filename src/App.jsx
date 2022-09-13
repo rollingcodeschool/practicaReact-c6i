@@ -1,6 +1,16 @@
+import Subtitulo from "./components/Subtitulo";
+import TituloPrincipal from "./components/TituloPrincipal";
+
 function App() {
+  //aqui va la mayoria de la logica
+  const comision = 'c6i';
+
   return (
-    <h1>Titulo prueba</h1>
+    <>
+      {/* <TituloPrincipal></TituloPrincipal> */}
+      <TituloPrincipal codigoComision={comision} estado={true} />
+      <Subtitulo></Subtitulo>
+   </>
   );
 }
 
